@@ -6,7 +6,7 @@ entries:
         - add custom annotations on dashboards configmap
     apiVersion: v1
     appVersion: 1.7.1
-    created: "2021-03-10T12:21:38.149761+02:00"
+    created: "2021-03-15T14:41:55.922162+02:00"
     description: Fast and lightweight log processor and forwarder or Linux, OSX and BSD family operating systems.
     digest: dd0eb1787732256ecba5261c7874248cb4a978b2921a502b76a3765832409f8f
     home: https://fluentbit.io/
@@ -26,6 +26,6 @@ entries:
     sources:
     - https://github.com/fluent/fluent-bit/
     urls:
-    - fluent-bit-0.12.3.tgz
+    - https://github.com/fravia190/helm-charts/templates/fluent-bit-0.12.3.tgz
     version: 0.12.3
-generated: "2021-03-10T12:21:38.148919+02:00"
+generated: "2021-03-15T14:41:55.921373+02:00"
